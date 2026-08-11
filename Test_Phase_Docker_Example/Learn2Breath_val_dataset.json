@@ -1,0 +1,23 @@
+{
+  "name": "Learn2Breath_NLST_validation",
+  "release": "0.1",
+  "description": "Validation split of the Learn2Breath NLST lung CT dataset. Each entry is one subject: INSP (fixed, inspiration) and EXP (moving, expiration). Images live under ./ct_data.",
+  "modality": {
+    "0000": "CT"
+  },
+  "target_spacing": [1.5, 1.5, 1.5],
+  "target_shape": [224, 192, 224],
+  "numValidation": 10,
+  "validation": [
+    {"subject": "NLST_0001", "Fixed INSP": "./ct_data/NLST_0001_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0001_EXP.nii.gz"},
+    {"subject": "NLST_0002", "Fixed INSP": "./ct_data/NLST_0002_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0002_EXP.nii.gz"},
+    {"subject": "NLST_0003", "Fixed INSP": "./ct_data/NLST_0003_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0003_EXP.nii.gz"},
+    {"subject": "NLST_0004", "Fixed INSP": "./ct_data/NLST_0004_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0004_EXP.nii.gz"},
+    {"subject": "NLST_0005", "Fixed INSP": "./ct_data/NLST_0005_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0005_EXP.nii.gz"},
+    {"subject": "NLST_0006", "Fixed INSP": "./ct_data/NLST_0006_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0006_EXP.nii.gz"},
+    {"subject": "NLST_0007", "Fixed INSP": "./ct_data/NLST_0007_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0007_EXP.nii.gz"},
+    {"subject": "NLST_0008", "Fixed INSP": "./ct_data/NLST_0008_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0008_EXP.nii.gz"},
+    {"subject": "NLST_0009", "Fixed INSP": "./ct_data/NLST_0009_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0009_EXP.nii.gz"},
+    {"subject": "NLST_0010", "Fixed INSP": "./ct_data/NLST_0010_INSP.nii.gz", "Moving EXP": "./ct_data/NLST_0010_EXP.nii.gz"}
+  ]
+}
