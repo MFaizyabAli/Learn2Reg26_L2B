@@ -4,7 +4,7 @@
 
 ![The Learn2Breath task](figures/task_illustration.png)
 
-*The task: register the expiration CT (EXP, moving) onto the inspiration CT (INSP, fixed) of the same patient. The lungs shrink substantially on expiration, and the lung base moves most. Shown for an unregistered validation pair: fixed lung boundary in blue, moving boundary dashed red, and the costophrenic regions where the lung-base metrics are measured in yellow.*
+*The task: register the expiration CT (EXP, moving; FRC, functional residual capacity) onto the inspiration CT (INSP, fixed; TLC, total lung capacity) of the same patient. Left: the two scans and the transform h between them, with its inverse h⁻¹. Middle: the displacement fields, which are largest at the lung base. Right: the Jacobian determinants, showing regional expansion and contraction of the lung.*
 
 ## Test set
 
