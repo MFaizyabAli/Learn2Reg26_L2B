@@ -13,3 +13,5 @@ Please visit [***learn2reg.grand-challenge.org***](https://learn2reg.grand-chall
 - [`convexadam_l2b_baseline/`](./convexadam_l2b_baseline) — a standalone (non-Docker)
   batch runner for the same ANTs Affine + ConvexAdam-MIND (SVF) baseline, useful for
   generating baseline predictions over a full dataset manifest.
+- [`Learn2Breath_TestPhase_Results/`](./Learn2Breath_TestPhase_Results) — official
+  test-phase ranking, methodology and figures.
